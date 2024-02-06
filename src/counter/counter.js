@@ -16,9 +16,9 @@ function Counter ()
     }
     return(
         <div>
-            <button className="bg-red-100" onClick={decrease}>-</button>
+            <button className="bg-red-100 w-30 h-10 p-5 m-5 " onClick={decrease}>-</button>
             {count}
-            <button onClick={increase}>+</button>
+            <button className="bg-red-100 w-30 h-10 p-5 m-5" onClick={increase}>+</button>
         </div>
     )
 }
