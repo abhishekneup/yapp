@@ -3,7 +3,7 @@ import React from 'react';
 
 const Card = ({ title, description, imageUrl }) => {
   return (
-    <div className="max-w-sm bg-slate-500 rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm bg-slate-500 rounded overflow-hidden shadow-lg flex justify-between">
       {imageUrl && (
         <img className="w-full"  alt="Card" />
       )}
