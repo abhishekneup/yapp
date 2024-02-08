@@ -7,9 +7,9 @@ import { useState } from "react";
     return(
         <div className=" w-full h-screen flex justify-center align-middle "  style={{backgroundColor: color}}>
             <div className=" bg-slate-400 w-full h-12 rounded-md flex justify-center items-center">
-                <button className="bg-red-300"  onClick={() => setColor("red")}>Red</button>
-                <button className="ml-4 bg-green-300" onClick={()=> setColor("green")} >Green</button>
-                <button className="ml-4 bg-yellow-300" onClick={()=> setColor("yellow")} >Yellow</button>
+                <button className="bg-red-700 rounded-md p-2 w-16"  onClick={() => setColor("red")}>Red</button>
+                <button className="ml-4 bg-green-600 rounded-md p-2 w-16" onClick={()=> setColor("green")} >Green</button>
+                <button className="ml-4 bg-yellow-400 rounded-md p-2 w-16" onClick={()=> setColor("yellow")} >Yellow</button>
 
 
 
