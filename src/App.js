@@ -9,7 +9,7 @@ import PasswordGenerator from './PasswordGenerator/PasswordGenerator';
 function App() {
   return (
     <Router>
-      <div  className="flex justify-around w-screen bg-slate-300 p-10 ">
+      <div  className="flex justify-around  bg-slate-300 p-10 ">
         
           
            <>
@@ -19,18 +19,18 @@ function App() {
             <Link to="/color-selector">Select_color</Link>
             </>
             <>
-            <Link to="/PasswordGenerator">PasswordGenerator</Link>
+            <Link to="/counter">Counter</Link>
             </>
             <>
-            <Link to="/counter">Counter</Link>
+            <Link to="/PasswordGenerator">PasswordGenerator</Link>
             </>
         
       </div>
       <Routes>
         <Route path="/card" element={<Card />} />
         <Route path="/color-selector" element={<SelectColor />} />
-        <Route path="/PasswordGenerator" element={<PasswordGenerator />} />
         <Route path="/counter" element={<Counter />} />
+        <Route path="/PasswordGenerator" element={<PasswordGenerator />} />
       </Routes>
     </Router>
   );
