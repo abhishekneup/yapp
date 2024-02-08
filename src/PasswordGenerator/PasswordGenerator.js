@@ -36,8 +36,8 @@ function PasswordGenerator()
         <h1 className="m-5 text-4l text-center text-black font-bold">Password Generator</h1>
         <div className="flex justify-center w-full h-screen">
 
-        <div className="flex-col items-center justify-center w-3/5 h-1/2 pl-20 pt-5 bg-gray-400 rounded-lg">
-            <div className="flex justify-around items-center bg-gray-300 w-4/5 h-fit m-5 rounded-xl">
+        <div className="flex-col items-center justify-center w-3/4 h-1/2 pl-20 p-7 bg-gray-400 rounded-lg">
+            <div className="flex justify-around items-center bg-gray-300 w-4/5 h-1/3 m-10 rounded-xl">
                 <input
                 type="text" 
                 value={Password} 
@@ -52,8 +52,8 @@ function PasswordGenerator()
                 {copy && <p className="text-green-500  text-center">Copied!</p>}
 
             </div>
-           < div className="flex justify-around bg-gray-300 w-4/5 h-fit m-5 rounded-xl">
-           <div className="p-9 flex-col border-2  rounded-md shadow-xl  h-fit text-left">
+           {/* < div className="flex justify-around bg-gray-300 w-fit h-fit m-5 rounded-xl"> */}
+           <div className="p-9  m-10 flex-col border-2  rounded-md shadow-xl bg-gray-300 w-4/5  h-1/3 text-left">
             <input 
              type="range" min="4" max="20"
              value={length} 
@@ -72,7 +72,7 @@ function PasswordGenerator()
 
             </div>
         </div>
-             </div>
+             {/* </div> */}
         </>
     )
 }
