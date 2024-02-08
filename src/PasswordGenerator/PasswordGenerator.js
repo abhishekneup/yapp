@@ -6,3 +6,5 @@ function PasswordGenerator()
         <h1>PasswordGenerator</h1>
     )
 }
+
+export default PasswordGenerator
