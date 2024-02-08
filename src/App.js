@@ -9,7 +9,7 @@ import PasswordGenerator from './PasswordGenerator/PasswordGenerator';
 function App() {
   return (
     <Router>
-      <div  className="flex justify-around  bg-slate-300 p-10 ">
+      <div  className="flex justify-around  bg-slate-300 p-10  font-mono text-l">
         
           
            <>
